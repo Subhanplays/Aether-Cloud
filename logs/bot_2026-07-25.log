@@ -1,0 +1,120 @@
+2026-07-25 20:04:11 | ERROR    | discord_bot | manager.py:42 | Failed to connect to database: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a6516b6ffbd1ac459517b41, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-25 20:04:11 | CRITICAL | discord_bot | main.py:56 | Failed to initialize database: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a6516b6ffbd1ac459517b41, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-25 20:04:11 | INFO     | discord_bot | main.py:177 | Shutting down bot...
+2026-07-25 20:04:11 | INFO     | discord_bot | manager.py:68 | Database connection closed
+2026-07-25 20:06:09 | INFO     | discord_bot | manager.py:36 | Database connection established successfully
+2026-07-25 20:06:09 | INFO     | discord_bot | manager.py:60 | Database indexes created successfully
+2026-07-25 20:06:09 | INFO     | discord_bot | main.py:54 | Database initialized successfully
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.verification: Extension 'cogs.verification' has no 'setup' function.
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.server: Extension 'cogs.server' has no 'setup' function.
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.tickets: Extension 'cogs.tickets' has no 'setup' function.
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.automation: Extension 'cogs.automation' has no 'setup' function.
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.owner: Extension 'cogs.owner' has no 'setup' function.
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.logging: Extension 'cogs.logging' has no 'setup' function.
+2026-07-25 20:06:09 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.moderation
+2026-07-25 20:06:09 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.roles: Extension 'cogs.roles' has no 'setup' function.
+2026-07-25 20:06:09 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.security
+2026-07-25 20:06:09 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.utility
+2026-07-25 20:06:09 | INFO     | discord_bot | main.py:95 | Successfully loaded 3 cogs
+2026-07-25 20:06:09 | WARNING  | discord_bot | main.py:98 | Failed to load 7 cogs
+2026-07-25 20:06:10 | INFO     | discord_bot | main.py:65 | Command tree synced successfully
+2026-07-25 20:06:12 | INFO     | discord_bot | main.py:104 | Bot is ready: Aether Cloud#4663 (ID: 1529241450456551486)
+2026-07-25 20:06:12 | INFO     | discord_bot | main.py:105 | Connected to 1 guilds
+2026-07-25 20:06:12 | INFO     | discord_bot | main.py:106 | Serving 6 members
+2026-07-25 20:06:30 | INFO     | discord_bot | main.py:117 | Left guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:06:40 | INFO     | discord_bot | main.py:110 | Joined new guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:12:57 | INFO     | discord_bot | main.py:177 | Shutting down bot...
+2026-07-25 20:12:57 | INFO     | discord_bot | manager.py:68 | Database connection closed
+2026-07-25 20:13:06 | INFO     | discord_bot | manager.py:36 | Database connection established successfully
+2026-07-25 20:13:06 | INFO     | discord_bot | manager.py:60 | Database indexes created successfully
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:54 | Database initialized successfully
+2026-07-25 20:13:06 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.verification: Extension 'cogs.verification' raised an error: NameError: name 'is_moderator' is not defined
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.server
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.tickets
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.automation
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.owner
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.logging
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.moderation
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.roles
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.security
+2026-07-25 20:13:06 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.utility: Extension 'cogs.utility' raised an error: CommandAlreadyRegistered: Command 'roleinfo' already registered.
+2026-07-25 20:13:06 | INFO     | discord_bot | main.py:95 | Successfully loaded 8 cogs
+2026-07-25 20:13:06 | WARNING  | discord_bot | main.py:98 | Failed to load 2 cogs
+2026-07-25 20:13:09 | INFO     | discord_bot | main.py:65 | Command tree synced successfully
+2026-07-25 20:13:12 | INFO     | discord_bot | main.py:104 | Bot is ready: Aether Cloud#4663 (ID: 1529241450456551486)
+2026-07-25 20:13:12 | INFO     | discord_bot | main.py:105 | Connected to 1 guilds
+2026-07-25 20:13:12 | INFO     | discord_bot | main.py:106 | Serving 6 members
+2026-07-25 20:13:18 | INFO     | discord_bot | main.py:117 | Left guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:13:23 | INFO     | discord_bot | main.py:110 | Joined new guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:24:15 | INFO     | discord_bot | main.py:177 | Shutting down bot...
+2026-07-25 20:24:15 | INFO     | discord_bot | manager.py:68 | Database connection closed
+2026-07-25 20:24:21 | INFO     | discord_bot | manager.py:36 | Database connection established successfully
+2026-07-25 20:24:22 | INFO     | discord_bot | manager.py:60 | Database indexes created successfully
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:54 | Database initialized successfully
+2026-07-25 20:24:22 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.verification: Extension 'cogs.verification' raised an error: NameError: name 'is_moderator' is not defined
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.server
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.tickets
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.automation
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.owner
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.logging
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.moderation
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.roles
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.security
+2026-07-25 20:24:22 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.utility: Extension 'cogs.utility' raised an error: CommandAlreadyRegistered: Command 'roleinfo' already registered.
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:95 | Successfully loaded 8 cogs
+2026-07-25 20:24:22 | WARNING  | discord_bot | main.py:98 | Failed to load 2 cogs
+2026-07-25 20:24:22 | INFO     | discord_bot | main.py:65 | Command tree synced successfully
+2026-07-25 20:24:25 | INFO     | discord_bot | main.py:104 | Bot is ready: Aether Cloud#4663 (ID: 1529241450456551486)
+2026-07-25 20:24:25 | INFO     | discord_bot | main.py:105 | Connected to 1 guilds
+2026-07-25 20:24:25 | INFO     | discord_bot | main.py:106 | Serving 7 members
+2026-07-25 20:27:51 | INFO     | discord_bot | main.py:177 | Shutting down bot...
+2026-07-25 20:27:51 | INFO     | discord_bot | manager.py:68 | Database connection closed
+2026-07-25 20:27:55 | INFO     | discord_bot | manager.py:36 | Database connection established successfully
+2026-07-25 20:27:55 | INFO     | discord_bot | manager.py:60 | Database indexes created successfully
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:54 | Database initialized successfully
+2026-07-25 20:27:55 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.verification: Extension 'cogs.verification' raised an error: NameError: name 'is_moderator' is not defined
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.server
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.tickets
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.automation
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.owner
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.logging
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.hosting
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.moderation
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.roles
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.security
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.backup
+2026-07-25 20:27:55 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.utility: Extension 'cogs.utility' raised an error: CommandAlreadyRegistered: Command 'roleinfo' already registered.
+2026-07-25 20:27:55 | INFO     | discord_bot | main.py:95 | Successfully loaded 10 cogs
+2026-07-25 20:27:55 | WARNING  | discord_bot | main.py:98 | Failed to load 2 cogs
+2026-07-25 20:27:56 | INFO     | discord_bot | main.py:65 | Command tree synced successfully
+2026-07-25 20:27:58 | INFO     | discord_bot | main.py:104 | Bot is ready: Aether Cloud#4663 (ID: 1529241450456551486)
+2026-07-25 20:27:58 | INFO     | discord_bot | main.py:105 | Connected to 1 guilds
+2026-07-25 20:27:58 | INFO     | discord_bot | main.py:106 | Serving 7 members
+2026-07-25 20:28:12 | WARNING  | discord_bot | security.py:290 | Channel deleted in Aether Cloud: 🔹・notsubhanjson
+2026-07-25 20:28:17 | WARNING  | discord_bot | security.py:290 | Channel deleted in Aether Cloud: Tickets
+2026-07-25 20:28:32 | INFO     | discord_bot | main.py:117 | Left guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:28:40 | INFO     | discord_bot | main.py:110 | Joined new guild: Aether Cloud (ID: 1528895877434052758)
+2026-07-25 20:33:15 | INFO     | discord_bot | owner.py:154 | Bot restart initiated by notsubhan.json
+2026-07-25 20:33:17 | INFO     | discord_bot | manager.py:36 | Database connection established successfully
+2026-07-25 20:33:17 | INFO     | discord_bot | manager.py:60 | Database indexes created successfully
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:54 | Database initialized successfully
+2026-07-25 20:33:17 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.verification: Extension 'cogs.verification' raised an error: NameError: name 'is_moderator' is not defined
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.server
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.tickets
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.automation
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.owner
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.logging
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.hosting
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.moderation
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.roles
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.security
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:89 | Loaded cog: cogs.backup
+2026-07-25 20:33:17 | ERROR    | discord_bot | main.py:92 | Failed to load cog cogs.utility: Extension 'cogs.utility' raised an error: CommandAlreadyRegistered: Command 'roleinfo' already registered.
+2026-07-25 20:33:17 | INFO     | discord_bot | main.py:95 | Successfully loaded 10 cogs
+2026-07-25 20:33:17 | WARNING  | discord_bot | main.py:98 | Failed to load 2 cogs
+2026-07-25 20:33:18 | INFO     | discord_bot | main.py:65 | Command tree synced successfully
+2026-07-25 20:33:21 | INFO     | discord_bot | main.py:104 | Bot is ready: Aether Cloud#4663 (ID: 1529241450456551486)
+2026-07-25 20:33:21 | INFO     | discord_bot | main.py:105 | Connected to 1 guilds
+2026-07-25 20:33:21 | INFO     | discord_bot | main.py:106 | Serving 7 members
+2026-07-25 20:34:28 | INFO     | discord_bot | main.py:177 | Shutting down bot...
+2026-07-25 20:34:28 | INFO     | discord_bot | manager.py:68 | Database connection closed
